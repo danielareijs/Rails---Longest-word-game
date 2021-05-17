@@ -1,0 +1,13 @@
+<div class="container">
+  <h1> Longest Word </h1>
+<ul>
+<% @new.each do |letter| %>
+  <li><%= letter.upcase %></li>
+<% end %>
+</ul>
+<form action="">
+  <h3>Create the longest word:</h3>
+  <input type="text" name="answer">
+  <input type="submit" value="Submit">
+</form>
+</div>
